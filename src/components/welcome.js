@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import github from '../GitHub-Mark-64px.png'
-import linkedin from '../In-2C-66px-TM.png'
+import github from '../images/GitHub-Mark-64px.png'
+import linkedin from '../images/linkedin.png'
+import cv from '../images/cv.png'
+
 class Welcome extends Component {
   render() {
     return (
@@ -12,6 +14,9 @@ class Welcome extends Component {
         </a>
         < a href="https://www.linkedin.com/in/andrew-donegan-6a3514152/">
           <img src={linkedin} />
+        </a>
+        <a href="">
+          <img src={cv} hspace="20"/>
         </a>
       </div>
     );
