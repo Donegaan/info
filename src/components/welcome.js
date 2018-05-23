@@ -10,13 +10,13 @@ class Welcome extends Component {
         <h1 className="welcome-intro"><strong>Andrew Donegan</strong></h1>
         <br />
         <a href="https://github.com/Donegaan" >
-          <img src={github} hspace="20" />
+          <img src={github} hspace="10" />
         </a>
         < a href="https://www.linkedin.com/in/andrew-donegan-6a3514152/">
-          <img src={linkedin} />
+          <img src={linkedin} hspace="10"/>
         </a>
-        <a href="">
-          <img src={cv} hspace="20"/>
+        <a href="https://donegaan.github.io/cv.pdf" target="_blank">
+          <img src={cv} hspace="10"/>
         </a>
       </div>
     );
