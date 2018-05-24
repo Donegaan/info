@@ -10,10 +10,10 @@ class Welcome extends Component {
         <h1>Andrew Donegan</h1>
         <br />
         
-        < a href="https://www.linkedin.com/in/andrew-donegan-6a3514152/">
+        < a href="https://www.linkedin.com/in/andrew-donegan-6a3514152/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} hspace="10"alt="linkedin"/>
         </a>
-        <a href="https://github.com/Donegaan" >
+        <a href="https://github.com/Donegaan" target="_blank" rel="noopener noreferrer">
           <img src={github} hspace="10" alt="github"/>
         </a>
         <a href="https://donegaan.github.io/cv.pdf" target="_blank" rel="noopener noreferrer">
