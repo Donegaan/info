@@ -7,9 +7,9 @@ class Welcome extends Component {
   render() {
     return (
       <div className="info-container">
+        {/* Info div with my links */}
         <h1>Andrew Donegan</h1>
         <br />
-        
         < a href="https://www.linkedin.com/in/andrew-donegan-6a3514152/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} hspace="10"alt="linkedin"/>
         </a>
@@ -19,7 +19,6 @@ class Welcome extends Component {
         <a href="https://donegaan.github.io/cv.pdf" target="_blank" rel="noopener noreferrer">
           <img src={cv} hspace="10"alt="cv"/> {/*CV by unlimicon from the Noun Project*/}
         </a>
-        
       </div>
     );
   }

@@ -9,9 +9,6 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <Info/>
-        {/* <div className="childbox">
-          I shall be in the middle of parentbox regardless of its size!
-        </div> */}
         </div>
       </div>
     );
