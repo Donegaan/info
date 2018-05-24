@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-
 import './App.css';
 
-import Welcome from './components/welcome'
+import Info from './components/info'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Welcome/>
+        <div className="container">
+          <Info/>
+        {/* <div className="childbox">
+          I shall be in the middle of parentbox regardless of its size!
+        </div> */}
+        </div>
       </div>
     );
   }
