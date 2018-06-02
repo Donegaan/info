@@ -11,6 +11,7 @@ class App extends Component {
         <div className="container">
           <Info/>
           <br/>
+          
           <Projects/>
         </div>
       </div>
