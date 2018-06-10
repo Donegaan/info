@@ -17,7 +17,7 @@ class Welcome extends Component {
           <img src={github} hspace="10" alt="github"/>
         </a>
         <a href="https://donegaan.github.io/cv.pdf" target="_blank" rel="noopener noreferrer">
-          <img src={cv} hspace="10"alt="cv"/> {/*CV by unlimicon from the Noun Project*/}
+          <img src={cv} hspace="10"alt="cv"/> {/*CV icon by unlimicon from the Noun Project*/}
         </a>
       </div>
     );
